@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IN & OUT Renovations & Painting</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+body {
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  background-color:#111111;
+  color:#ffffff;
+}
+
+section {
+  padding:80px 10%;
+}
+
+h1, h2 {
+  font-weight:900;
+  text-transform:uppercase;
+}
+
+.yellow {
+  color:#F4B400;
+}
+
+.btn-primary {
+  background:#F4B400;
+  color:#111111;
+  padding:15px 30px;
+  text-decoration:none;
+  font-weight:bold;
+  display:inline-block;
+  margin-right:15px;
+}
+
+.btn-secondary {
+  border:2px solid #F4B400;
+  color:#F4B400;
+  padding:15px 30px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.hero {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.services {
+  display:flex;
+  justify-content:space-between;
+}
+
+.cta-bar {
+  background:#F4B400;
+  color:#111111;
+  text-align:center;
+  padding:60px 10%;
+  font-weight:900;
+}
+
+footer {
+  background:#000000;
+  text-align:center;
+  padding:40px;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div>
+    <h1>From <span class="yellow">Outdated</span> to Outstanding</h1>
+    <p>Professional Renovation & Painting Services in Calgary</p>
+    <a href="#" class="btn-primary">Book Free Estimate</a>
+    <a href="tel:4036519262" class="btn-secondary">Call Now</a>
+  </div>
+  <div>
+    <!-- Insert Before/After Image Here -->
+  </div>
+</section>
+
+<section>
+  <h2 class="yellow">Our Services</h2>
+  <div class="services">
+    <div>
+      <p>✔ Interior Painting</p>
+      <p>✔ Exterior Painting</p>
+      <p>✔ Full Renovations</p>
+      <p>✔ Kitchen & Bathroom</p>
+    </div>
+    <div>
+      <p>✔ Licensed & $5M Insured</p>
+      <p>✔ Clean Professional Crew</p>
+      <p>✔ On-Time Completion</p>
+      <p>✔ Free Estimates</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-bar">
+  <h2>Book Your FREE Estimate Today</h2>
+</section>
+
+<footer>
+  © IN & OUT Renovations & Painting Ltd. | Serving Calgary & Surrounding Areas
+</footer>
+
+</body>
+</html>
